@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+.game-board {
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 150px));
+    grid-gap: 1px
+}
+
+.card {
+    width: 100%;
+    min-height: 140px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #777777;
+    z-index: 3333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+}
+
+.card-back {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.back-content {
+    width: 100%;
+    max-width: 50px;
+}
+
+.card-front {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.front-content {
+    width: 100%;
+    max-width: 120px;
+    display: block;
+    
+}
+
+.hide {
+    display: none;
+}
+
+.opa {
+    opacity: 0.5;
+}
+
+.trophy-section {
+    width: 50%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trophy-card {
+    max-width: 100px;
+    width: 20%;
+    min-height: 140px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #777777;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.trophy-card-back {
+    font-size: 40px;
+}
