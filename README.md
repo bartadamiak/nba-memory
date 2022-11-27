@@ -1,4 +1,4 @@
 # nba-memory
 
 
-http://badamiak.pl/nba-memory/
+http://badamiak.pl/memory-nba/
